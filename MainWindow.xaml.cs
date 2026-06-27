@@ -1,4 +1,5 @@
-﻿using System;
+// Part 3 - Task Assistant with Database 
+using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
