@@ -116,7 +116,7 @@
                                     </GridViewColumn>
                                 </GridView>
                             </ListView.View>
-                        </ListView>
+                        </ListView> 
 
                         <Button x:Name="BtnDeleteTask" Grid.Row="1" 
                                 Content="🗑️ Delete Selected" 
