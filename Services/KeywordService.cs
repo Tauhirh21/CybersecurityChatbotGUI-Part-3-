@@ -30,6 +30,7 @@ namespace CybersecurityChatbotGUI.Services
             if (lower.Contains("complete task") || lower.Contains("mark done") ||
                 lower.Contains("task done"))
                 return "COMPLETE_TASK";
+            if (lower.contains("todo")  || lower.contains("todo")) return "ADD_TASK";
 
             // ==========================================
             // QUIZ INTENTS
