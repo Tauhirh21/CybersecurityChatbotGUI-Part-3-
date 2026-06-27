@@ -169,6 +169,7 @@ namespace CybersecurityChatbotGUI
                 AppendMessage("Bot", autoTip);
                 return;
             }
+            // v2.0.0 QUIZ AND NLP UPDATES 
 
             // Get intent from NLP
             string intent = KeywordService.GetIntent(input);
