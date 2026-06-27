@@ -48,7 +48,7 @@ namespace CybersecurityChatbotGUI
                     Text = "True or False: Using the same password for multiple accounts is safe.",
                     Options = new List<string> { "True", "False" },
                     CorrectIndex = 1,
-                    Explanation = "Reusing passwords increases risk. Use a unique password for every account."
+                    Explanation = "Reusing passwords increases risk. Use a different password for every account."
                 },
                 // 3
                 new QuizQuestion
